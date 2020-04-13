@@ -8,3 +8,12 @@
 ## Assignment 3
 .[]:HW3
 
+## Install necessary packages
+pip3 install -r requirements.txt
+
+## Activate / Deactivate env setting
+### Activate
+source ./venv/bin/activate
+
+### Deactivate
+deactivate
