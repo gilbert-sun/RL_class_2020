@@ -177,7 +177,7 @@ def run_pi_and_vi(env_name):
 
 if __name__ == '__main__':
     # OpenAI gym environment: Taxi-v2
-    pi_policy, vi_policy = run_pi_and_vi('Taxi-v2')
+    pi_policy, vi_policy = run_pi_and_vi('Taxi-v3')
 
     # For debugging
     action_map = {0: "S", 1: "N", 2: "E", 3: "W", 4: "P", 5: "D"}
