@@ -17,3 +17,6 @@ source ./venv/bin/activate
 
 ### Deactivate
 deactivate
+
+### Create requirements.txt
+pip freeze > requirements.txt
